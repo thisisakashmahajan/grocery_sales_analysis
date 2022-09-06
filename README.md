@@ -3,9 +3,12 @@ Sales Analysis on supermarket grocery dataset
 To download the grocery dataset, [click here](https://www.kaggle.com/datasets/mohamedharris/supermart-grocery-sales-retail-analytics-dataset)
 
 **Description:**
+
 This project is aimed at finding useful sales patterns
 and produce knowledge on based on the target dataset. This project is 
-completed under Internship program by CodeClause.
+completed under Internship program by CodeClause. The dataset used in the experiments is completely fictional (as disclosed by author). 
+However, the experiments carried on the dataset could be applicable to similar business scenario.
+
 
 **Disclaimer:**
 1. This project is result of original work
