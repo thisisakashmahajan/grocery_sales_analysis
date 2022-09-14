@@ -1,4 +1,9 @@
-# correlation_analysis.py
+"""
+* correlation_analysis.py
+Investigate the correlation of various quantitative parameters in dataset.
+This activity reduces the number of columns being analyzed to avoid extra data being taken for testing and analysis.
+The outcome of this activity is the list of correlated columns or data.
+"""
 import pandas as pd
 import numpy as np
 
@@ -8,13 +13,10 @@ def round_off(amount):
 
 
 df = pd.read_csv('supermart_grocery_sales_data.csv', parse_dates=['order_date'])
-# print(df.head())
 
 # Select only the quantitative fields
 df = df[['sales', 'discount', 'profit']]
-# print(df.columns)
 
-# Using NumPy library functions to calculate correlation
 # 1. Correlation between sales amount and discount
 correlation = np.corrcoef(df.sales, df.discount)
 print('Correlation between Sales and Discount:', round_off(correlation[0][1]))
