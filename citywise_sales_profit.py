@@ -1,7 +1,8 @@
 """
 * citywise_sales_profit.py
+Objective 3: To investigate the cities where top 5 products are sold
 For the selected products namely soft drink, cold drink, Cookies, Breads & Buns, and Noodles top-selling cities
-can be found. . In this way, a vendor of these products can target the cities to promote their products and services
+can be found. In this way, a vendor of these products can target the cities to promote their products and services
 associated with the top 5 selling products.
 """
 

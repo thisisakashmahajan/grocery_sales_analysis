@@ -1,6 +1,6 @@
 """
 * correlation_analysis.py
-Investigate the correlation of various quantitative parameters in dataset.
+Objective 1: Investigate the correlation of various quantitative parameters in dataset.
 This activity reduces the number of columns being analyzed to avoid extra data being taken for testing and analysis.
 The outcome of this activity is the list of correlated columns or data.
 """

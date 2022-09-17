@@ -1,7 +1,7 @@
 """* popular_products.py
-To list out the popularity of products by amount of total sales Each sales earns an overhead
-profit. When the sales amount and profit is summed up, we get an amount which represents total sales. In this
-activity, sub-category level products are listed out by their total sales to show top 5 popular products in inventory
+Objective 2: To list out the popularity of products by amount of total sales
+Each sales earns an overhead profit. When the sales amount and profit is summed up, we get an amount which represents total sales.
+In this activity, sub-category level products are listed out by their total sales to show top 5 popular products in inventory
 
 """
 import pandas as pd
